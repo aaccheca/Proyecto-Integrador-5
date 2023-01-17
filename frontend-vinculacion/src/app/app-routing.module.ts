@@ -24,6 +24,7 @@ import { ListaEstudiantesGeneralComponent } from './pages/coordinador-general/li
 import { ActividadesComponent } from './pages/pestanias/actividades/actividades.component';
 import { DatosGeneralesComponent } from './pages/pestanias/datos-generales/datos-generales.component';
 import { EmpresaComponent } from './pages/pestanias/empresa/empresa.component';
+import { IntegrantesComponent } from './pages/pestanias/integrantes/integrantes.component';
 
 const routes: Routes = [
   {
@@ -61,6 +62,7 @@ const routes: Routes = [
   { path: 'actividades', component: ActividadesComponent},
   { path: 'datos-generales', component: DatosGeneralesComponent},
   { path: 'empresa', component: EmpresaComponent},
+  { path: 'integrantes', component: IntegrantesComponent},
 
   { path: '**', component: NopagesfoundComponent },
   { path: '', redirectTo: '/desboard', pathMatch: 'full' },
